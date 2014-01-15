@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width; scale:1; }
+@-ms-viewport { width: device-width; scale:1; }
+@-webkit-viewport { width: device-width; scale:1; }
+@-o-viewport { width: device-width; scale:1; }
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+}
+
+html, body{
+	font-family: sans-serif;
+	width: 100%;
+}
+
+.ease-all{
+		-webkit-transition: all 350ms ease-in-out;
+		-moz-transition: all 350ms ease-in-out;
+       -ms-transition: all 350ms ease-in-out;
+       -o-transition: all 350ms ease-in-out;
+		transition: all 350ms ease-in-out;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+
+main p{
+	font-size: .8rem;
+	margin-bottom: 1rem;
+	clear:both;
+}
+
+h1{
+	width: 90%;
+	font-size: 1rem;
+	padding-top: 7rem;
+	text-align:center;
+	margin-bottom:1rem;
+	font-family: 'Ovo',serif;
+}
+
+.flexslider{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	z-index:90;
+}
+
+.flex-caption{
+	font-size: .75rem;
+	margin-top: .5rem;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+.masthead {
+	position: fixed;
+	width: 100%;
+	background-color:#F5F3F3;
+	z-index:100;
+}
+
+.logo img {
+	width: 7rem;
+	position: relative;
+	display: block;
+	z-index: 100;
+	bottom: -1.5rem;
+}
+
+nav {
+	width: 100%;
+	padding-bottom: .75rem;
+}
+
+nav ul{
+	text-align: center;
+	margin-top: -1.5rem;	
+}
+
+nav li {
+	display: inline;	
+	margin: 0;
+}
+
+nav a {
+	display: inline-block;
+	color: #393636;
+	font-size: .73rem;
+	text-decoration: none;
+	font-family: 'Ovo',serif;
+}
+
+@media only screen and (min-width: 32.25em){ 
+
+main{
+	width: 70%;
+}
+
+.logo img {
+	width: 7rem;
+	margin-left:2rem;
+	margin-right:1.5rem;
+	position: relative;
+	display: block;
+	z-index: 100;
+	bottom: -1.5rem;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+nav a {
+	display: inline-block;
+	color: #393636;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+}
+
+@media only screen and (min-width: 48em){
+
+main{
+	width:95%;
+}
+
+h1{
+	text-align:center;
+}
+
+.flex-caption{
+	position: absolute;
+	bottom: 1rem;
+	margin: 0;
+	padding: 1rem;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.col{
+	width: 37.5%;
+	}
+
+.left{
+	float: left;
+	margin-left: 5rem;
+}
+
+.right{
+	float: right;
+	margin-right:5rem;
+}
+	
+main{
+	clear:both;
+}
+
+footer{
+	clear: both;
+}
+}
+
+@media only screen and (min-width: 64em){
+
+main{
+	width: 80%
+}
+
+h1{
+	text-align: center;
+}
+
+.col{
+	width: 39%;
+	}
+
+.left{
+	float: left;
+	margin-left: 3rem;
+}
+
+.right{
+	float: right;
+	margin-right:3rem;
+}
+	
+main{
+	clear:both;
+}
+
+}
+
+@media only screen and (min-width: 70em){
+	
+main{ 
+	width: 70%
+}
+
+h1{
+	margin-left: 4rem;
+}
+
+.col{
+	width: 40%;
+	}
+
+.left{
+	float: left;
+	margin-left: 5rem;
+}
+
+.right{
+	float: right;
+	margin-right:5rem;
+}
+	
+main{
+	clear:both;
+}
+}
+
+@media only screen and (min-width: 70.25em){
+	
+main{
+	width: 70%;
+	clear:both;
+}
+	
+.col{
+	width:39%;
+}
+
+.left{
+	float:left;
+	margin-left:4rem;
+}
+
+.right{
+	float:right;
+	margin-right:4rem;
+}
+}
+
+
+@media screen and (min-width: 73em){
+.col{
+	width: 39%;
+	}
+
+.left{
+	float: left;
+	margin-left: 5rem;
+}
+
+.right{
+	float: right;
+	margin-right:4rem;
+}
+}
+
+/* Portfolio Page///////////////////////////////////////////////////////////////////////////*/
+
+.image-list{
+	overflow: auto;
+}
+
+.image-list li{
+	width: 45%;
+	margin: 2.5%;
+	float: left;
+}
+
+@media screen only and (min-width: 25em){
+.image-list li{
+	width: 28.33%;
+}
+}
+
+@media only screen and (min-width: 40em){
+.image-list li{
+	width: 20%;
+}
+}
+
+
+/* Contact Page//////////////////////////////////////////////////////////////////////////*/
+.contact{
+	width:90%;
+}
+
+.contact-pic{
+	width:100%;
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+h2{
+	margin-bottom: 1rem;
+	font-size:.85rem;
+}
+
+.link{
+	padding-bottom: 1rem;
+	font-size: .9rem;
+}
+
+.fancy-link,
+.fancy-link:link,
+.fancy-link:visited{
+	color: #979393;
+	text-decoration: none;
+	border-bottom: 0px solid #979393;
+}
+
+.fancy-link:hover,
+.fancy-link:focus,
+.fancy-link:active{
+	color: #000000;
+	border-bottom: 5px solid #000000;
+}
+
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social{
+	margin-top:.25rem;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: .8rem;
+	margin-bottom: 1rem;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	
+	color: #fff;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;
+
+	color:#222;
+}
+
+@media only screen and (min-width: 40em){
+.contact-pic{
+	width:60%;
+	float:right;
+	margin-bottom:6rem;
+}
+
+.contact-h2{
+	margin-top: 2rem;
+}
+
+.link{
+	float: left;
+
+}
+
+.fancy-link{
+	float: left;
+}
+
+.social li{
+	margin-top: 1rem;
+	float: left;
+	clear: left;
+}
+}
+
+@media only screen and (min-width:44em){
+.contact-h1{
+	text-align:left;
+}
+}
+
+@media only screen and (min-width:50em){
+.contact{
+	width:70%;
+}
+}
+
+@media only screen and (min-width:52em){
+.link{
+	width: 25%;
+	float:left;
+	clear:left;
+}
+}
+
+@media only screen and (min-width:70.25em){
+.contact-h1{
+	text-align:left;
+	margin-left:0;
+}
+
+.contact-pic{
+	margin-right:5rem;
+}
+}
+/*//////////////////////////////////////////////////////////FOOTER*/
+footer {
+	width: 100%;
+	height: 7rem;
+	background-color: #A49D9D;
+	margin-bottom: 0;
+	clear: both;
+}
+
+footer p { 
+	font-size: .5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	position: absolute;
+	margin: 3rem 2% 0;
+	line-height: .75rem;
+}
+
+
+
+
+
+
+
+
+
+

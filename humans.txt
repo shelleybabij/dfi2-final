@@ -1,0 +1,14 @@
+/* TEAM*/
+Designer/Developer: Shelley Babij
+School: Algonquin College
+Twitter: @shelleybabij
+Location: Ottawa, Canada
+
+/*THANKS*/
+To my teacher and to the people who made the internet.
+
+/*SITE*/
+Last updated: 2013/12/11
+Standards: HTML5, CSS3
+Components: Modernizer, Jquery, etc....
+Software: Adobe, Livereload
